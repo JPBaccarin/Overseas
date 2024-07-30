@@ -1,0 +1,81 @@
+{
+  "countries": [
+    {
+      "id": "1e8f41e0-eadd-11ec-8fea-0242ac120002",
+      "name": "Belarus",
+      "iso_code": "BY",
+      "continent": "Europe",
+      "capital": "Minsk",
+      "official_language": "Belarusian",
+      "currency": "Belarusian Ruble",
+      "population": 9408400,
+      "area": 207600,
+      "created_at": "2024-07-28T20:26:00Z",
+      "updated_at": "2024-07-28T20:26:00Z",
+      "cost_of_living": {
+        "average_food_cost": 150.0,
+        "average_transportation_cost": 50.0,
+        "average_utilities_cost": 100.0,
+        "average_entertainment_cost": 70.0,
+        "created_at": "2024-07-28T20:26:00Z",
+        "updated_at": "2024-07-28T20:26:00Z"
+      },
+      "culture_and_language": {
+        "official_languages": "Belarusian, Russian",
+        "common_languages": "Belarusian, Russian",
+        "cultural_norms": "Belarusians value hospitality, respect for elders, and family.",
+        "public_holidays": "Independence Day, Victory Day",
+        "created_at": "2024-07-28T20:26:00Z",
+        "updated_at": "2024-07-28T20:26:00Z"
+      },
+      "documentation": {
+        "required_documents": "Passport, Visa, Work Permit",
+        "registration_process": "Register with local authorities within 30 days of arrival.",
+        "document_issuance": "Issued by the Ministry of Internal Affairs.",
+        "created_at": "2024-07-28T20:26:00Z",
+        "updated_at": "2024-07-28T20:26:00Z"
+      },
+      "education": {
+        "system_type": "Public",
+        "average_cost": 5000,
+        "top_schools": ["Belarusian State University", "Minsk State Linguistic University"],
+        "university_admission_process": "Entrance exams, Language proficiency tests",
+        "language_requirements": "Belarusian or Russian",
+        "created_at": "2024-07-28T20:26:00Z",
+        "updated_at": "2024-07-28T20:26:00Z"
+      },
+      "healthcare": {
+        "system_type": "Universal healthcare",
+        "insurance_requirements": "Mandatory for residents",
+        "average_cost": 300,
+        "hospitals_quality": "High quality in major cities",
+        "emergency_numbers": "103",
+        "created_at": "2024-07-28T20:26:00Z",
+        "updated_at": "2024-07-28T20:26:00Z"
+      },
+      "housing": {
+        "average_rent": 500,
+        "average_property_price": 100000,
+        "popular_areas": ["Minsk", "Brest", "Gomel"],
+        "rental_process": "Rental agreement required",
+        "buying_process": "Notarized sale agreement",
+        "created_at": "2024-07-28T20:26:00Z",
+        "updated_at": "2024-07-28T20:26:00Z"
+      },
+      "job_market": {
+        "major_industries": ["Manufacturing", "IT", "Agriculture"],
+        "average_salary": 600,
+        "unemployment_rate": 4.5,
+        "work_permit_requirements": "Work visa required for non-residents",
+        "created_at": "2024-07-28T20:26:00Z",
+        "updated_at": "2024-07-28T20:26:00Z"
+      },
+      "safety": {
+        "crime_rate": 1.2,
+        "safe_areas": ["Minsk", "Grodno"],
+        "created_at": "2024-07-28T20:26:00Z",
+        "updated_at": "2024-07-28T20:26:00Z"
+      }
+    }
+  ]
+}
