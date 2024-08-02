@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { ComboboxDemo } from "./hero.input";
+import { SelectCountry } from "./hero.input";
 
 const images = [
   "https://romanroams.com/wp-content/uploads/2020/03/banff-canada-nature.jpg",
@@ -13,16 +13,16 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 1000); // Change image every 5 seconds
+    }, 5000); // Change image every 5 seconds
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div className="h-[80vh] m-2 rounded-md flex flex-row justify-between text-center text-foreground">
       <div className="z-10 items-center flex flex-col justify-center">
-        <h1 className="text-5xl mb-4">Find Your New Home</h1>
+        <h1 className="text-5xl mb-4 font-semibold">Find Your New Home</h1>
         <p className="text-2xl mb-4">Enter the name of the country you want to live:</p>
-        <ComboboxDemo />
+        <SelectCountry />
       </div>
       <div className="  relative rounded-md w-2/4">
         <img

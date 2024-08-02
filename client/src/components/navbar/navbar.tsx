@@ -12,16 +12,15 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="bg-primary p-4">
-      <Link href={"asd"}></Link>
-      <div className="sm:container mx-auto flex justify-between items-center">
+      <div className="sm:  flex justify-between items-center">
         <div className="text-background text-xl font-bold">Overseas</div>
 
         <div className="hidden sm:flex space-x-4">
-          <Link href="#" className="text-background hover:text-muted">
+          <Link href="/" className="text-background hover:text-muted">
             Country Details
           </Link>
 
-          <Link href="#" className="text-background hover:text-muted">
+          <Link href="/comparison" className="text-background hover:text-muted">
             Compare Countries
           </Link>
         </div>
@@ -33,11 +32,11 @@ const Navbar: React.FC = () => {
       </div>
       {isMenuOpen && (
         <div className="sm:hidden">
-          <Link href="#" className="block text-background p-2 hover:text-muted">
+          <Link href="/" className="block text-background p-2 hover:text-muted">
             Country Details
           </Link>
 
-          <Link href="#" className="block text-background p-2 hover:text-muted">
+          <Link href="/comparison" className="block text-background p-2 hover:text-muted">
             Compare Countries
           </Link>
         </div>
