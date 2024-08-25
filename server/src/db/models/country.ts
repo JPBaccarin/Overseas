@@ -2,8 +2,7 @@ import { DataTypes } from 'sequelize';
 import sequelize from '../config.ts';
 const Country = sequelize.define('Country', {
   id: {
-    type: DataTypes.UUID,
-    defaultValue: DataTypes.UUIDV4,
+    type: DataTypes.CHAR(36),
     primaryKey: true,
   },
   name: {

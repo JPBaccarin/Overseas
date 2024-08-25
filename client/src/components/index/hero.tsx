@@ -21,10 +21,10 @@ const Hero = () => {
     <div className="h-[80vh] m-2 rounded-md flex flex-row justify-between text-center text-foreground">
       <div className="z-10 items-center flex flex-col justify-center">
         <h1 className="text-5xl mb-4 font-semibold">Find Your New Home</h1>
-        <p className="text-2xl mb-4">Enter the name of the country you want to live:</p>
+        <p className="text-2xl mb-4">Pick a country to start your search:</p>
         <SelectCountry />
       </div>
-      <div className="  relative rounded-md w-2/4">
+      <div className=" ml-2 relative rounded-md w-2/4 hidden sm:block">
         <img
           src={images[currentImage]}
           alt="Country"
