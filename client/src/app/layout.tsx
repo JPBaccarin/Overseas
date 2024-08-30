@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Spline_Sans   as FontSans } from "next/font/google";
+import { Archivo_Narrow   as FontSans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/navbar/navbar";

@@ -4,7 +4,8 @@ import Hero from "@/components/index/hero";
 const features = [
   {
     title: "Discover Your New Home",
-    description: "Find and explore detailed information about countries around the world to make your relocation decision easier.",
+    description:
+      "Find and explore detailed information about countries around the world to make your relocation decision easier.",
     icon: "🌍",
   },
   {
@@ -14,7 +15,8 @@ const features = [
   },
   {
     title: "Reliable Sources",
-    description: "Access data and advice from trusted sources to ensure you have the most accurate and up-to-date information.",
+    description:
+      "Access data and advice from trusted sources to ensure you have the most accurate and up-to-date information.",
     icon: "✔️",
   },
 ];
@@ -22,26 +24,25 @@ const features = [
 const testimonials = [
   {
     name: "Alice Johnson",
-    feedback: "This service made relocating so much easier! The detailed country information helped me make an informed decision.",
+    feedback:
+      "This service made relocating so much easier! The detailed country information helped me make an informed decision.",
     location: "Toronto, Canada",
   },
   {
     name: "Carlos Martinez",
-    feedback: "I was able to find all the information I needed about living in Mexico. Great resource for anyone considering a move!",
+    feedback:
+      "I was able to find all the information I needed about living in Mexico. Great resource for anyone considering a move!",
     location: "Mexico City, Mexico",
   },
   {
     name: "Sophia Lee",
-    feedback: "The insights provided are invaluable. It helped me understand the cultural and economic aspects of moving to the UK.",
+    feedback:
+      "The insights provided are invaluable. It helped me understand the cultural and tomic aspects of moving to the UK.",
     location: "London, United Kingdom",
   },
 ];
 
-const partners = [
-  "https://example.com/logo1.png",
-  "https://example.com/logo2.png",
-  "https://example.com/logo3.png",
-];
+const partners = ["https://example.com/logo1.png", "https://example.com/logo2.png", "https://example.com/logo3.png"];
 
 const faqs = [
   {
@@ -54,7 +55,8 @@ const faqs = [
   },
   {
     question: "Is there a subscription fee?",
-    answer: "No, our service is free to use. We aim to provide valuable information to assist with your relocation plans.",
+    answer:
+      "No, our service is free to use. We aim to provide valuable information to assist with your relocation plans.",
   },
 ];
 
@@ -100,7 +102,7 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
- 
+
       <section className="py-12 bg-background ">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8">Frequently Asked Questions</h2>

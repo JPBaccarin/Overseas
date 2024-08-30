@@ -1,31 +1,33 @@
 import { DataTypes } from "sequelize";
-import sequelize from '../config.ts';
-import Country from './country.ts';
+import sequelize from "../config.ts";
+import Country from "./country.ts";
 
 const Taxes = sequelize.define(
-  "Taxes",
+  "taxes",
   {
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
+      autoIncrement: true,
     },
     country_id: {
       type: DataTypes.CHAR(36),
-      allowNull: false,
       references: {
-        model: Country,
+        model: "Countries",
         key: "id",
       },
       onDelete: "CASCADE",
     },
     income_tax_rate: DataTypes.FLOAT,
-    vat_rate: DataTypes.FLOAT,
-    other_taxes: DataTypes.TEXT,
+    sales_tax_rate: DataTypes.FLOAT,
+    property_tax_rate: DataTypes.FLOAT,
+    double_taxation_treaties: DataTypes.TEXT,
     tax_filing_process: DataTypes.TEXT,
   },
   {
     timestamps: true,
-  }
+    freezeTableName: true,
+  },
 );
 
 Country.hasMany(Taxes, { foreignKey: "country_id" });

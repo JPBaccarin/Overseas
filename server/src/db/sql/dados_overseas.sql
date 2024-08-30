@@ -27,12 +27,6 @@ USE `overseas`;
 -- Dumping data for table `cost_of_living`
 --
 
-INSERT INTO `cost_of_living` (`id`, `country_id`, `average_food_cost`, `average_transportation_cost`, `average_utilities_cost`, `average_entertainment_cost`, `created_at`, `updated_at`) VALUES
-(1, 'canada', 400, 150, 200, 250, '2024-08-18 23:22:45', '2024-08-18 23:22:45'),
-(2, 'mexico', 300, 100, 150, 100, '2024-08-18 23:22:45', '2024-08-18 23:22:45'),
-(3, 'gb', 500, 200, 250, 300, '2024-08-18 23:22:45', '2024-08-18 23:22:45'),
-(4, 'brazil', 250.5, 100.75, 150.6, 80.25, '2024-08-18 23:03:04', '2024-08-18 23:03:04'),
-(5, 'usa', 300.8, 120.3, 200.45, 100.9, '2024-08-18 23:03:04', '2024-08-18 23:03:04');
 
 --
 -- Dumping data for table `countries`
@@ -48,6 +42,15 @@ INSERT INTO `countries` (`id`, `name`, `iso_code`, `continent`, `capital`, `offi
 --
 -- Dumping data for table `culture_and_language`
 --
+
+
+INSERT INTO `cost_of_living` (`id`, `country_id`, `average_food_cost`, `average_transportation_cost`, `average_utilities_cost`, `average_entertainment_cost`, `created_at`, `updated_at`) VALUES
+(1, 'canada', 400, 150, 200, 250, '2024-08-18 23:22:45', '2024-08-18 23:22:45'),
+(2, 'mexico', 300, 100, 150, 100, '2024-08-18 23:22:45', '2024-08-18 23:22:45'),
+(3, 'gb', 500, 200, 250, 300, '2024-08-18 23:22:45', '2024-08-18 23:22:45'),
+(4, 'brazil', 250.5, 100.75, 150.6, 80.25, '2024-08-18 23:03:04', '2024-08-18 23:03:04'),
+(5, 'usa', 300.8, 120.3, 200.45, 100.9, '2024-08-18 23:03:04', '2024-08-18 23:03:04');
+
 
 INSERT INTO `culture_and_language` (`id`, `country_id`, `official_languages`, `common_languages`, `cultural_norms`, `public_holidays`, `created_at`, `updated_at`) VALUES
 (1, 'canada', 'English, French', 'English, French', 'Politeness, Multiculturalism', 'Canada Day, Thanksgiving', '2024-08-18 23:22:45', '2024-08-18 23:22:45'),

@@ -1,9 +1,9 @@
 import { DataTypes } from "sequelize";
-import sequelize from '../config.ts';
-import Country from './country.ts';
+import sequelize from "../config.ts";
+import Country from "./country.ts";
 
 const JobMarket = sequelize.define(
-  "JobMarket",
+  "job_market",
   {
     id: {
       type: DataTypes.INTEGER,
@@ -24,8 +24,8 @@ const JobMarket = sequelize.define(
     work_permit_requirements: DataTypes.TEXT,
   },
   {
-    timestamps: true,
-  }
+    timestamps: true,freezeTableName: true,
+  },
 );
 
 Country.hasMany(JobMarket, { foreignKey: "country_id" });

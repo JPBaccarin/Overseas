@@ -3,7 +3,7 @@ import sequelize from '../config.ts';
 import Country from './country.ts';
 
 const CultureAndLanguage = sequelize.define(
-  "CultureAndLanguage",
+  "culture_and_language",
   {
     id: {
       type: DataTypes.INTEGER,
@@ -24,7 +24,7 @@ const CultureAndLanguage = sequelize.define(
     public_holidays: DataTypes.TEXT,
   },
   {
-    timestamps: true,
+    timestamps: true,freezeTableName: true,
   }
 );
 

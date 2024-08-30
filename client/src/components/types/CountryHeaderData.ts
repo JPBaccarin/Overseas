@@ -1,4 +1,4 @@
-export interface CountryData {
+export interface CountryHeaderData {
   name: {
     common: string;
   };

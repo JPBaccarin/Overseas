@@ -2,7 +2,7 @@ import { DataTypes } from "sequelize";
 import sequelize from '../config.ts';
 import Country from './country.ts';
 const Documentation = sequelize.define(
-  "Documentation",
+  "documentation",
   {
     id: {
       type: DataTypes.INTEGER,
@@ -22,7 +22,7 @@ const Documentation = sequelize.define(
     document_issuance: DataTypes.TEXT,
   },
   {
-    timestamps: true,
+    timestamps: true,freezeTableName: true,
   }
 );
 

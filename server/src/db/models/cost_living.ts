@@ -3,7 +3,7 @@ import sequelize from "../config.ts";
 import Country from "./country.ts";
 
 const CostOfLiving = sequelize.define(
-  "CostOfLiving",
+  "cost_of_living",
   {
     id: {
       type: DataTypes.INTEGER,
@@ -24,8 +24,7 @@ const CostOfLiving = sequelize.define(
     average_entertainment_cost: DataTypes.FLOAT,
   },
   {
-    timestamps: true,
-  }
+    timestamps: true, freezeTableName: true, },
 );
 
 Country.hasMany(CostOfLiving, { foreignKey: "country_id" });

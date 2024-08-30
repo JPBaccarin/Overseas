@@ -13,8 +13,12 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-primary p-4">
       <div className="sm:  flex justify-between items-center">
-        <div className="text-background text-xl font-bold">Overseas</div>
-
+        <Link
+          href="/"
+          className="text-background text-xl font-bold hover:scale-110 duration-300 ease-in-out "
+        >
+          Overseas
+        </Link>
         <div className="hidden sm:flex space-x-4">
           <Link href="/" className="text-background hover:text-muted">
             Country Details

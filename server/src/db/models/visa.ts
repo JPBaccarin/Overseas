@@ -2,7 +2,7 @@ import { DataTypes } from "sequelize";
 import sequelize from "../config.ts";
 import Country from "./country.ts";
 const Visa = sequelize.define(
-  "Visa",
+  "visas",
   {
     id: {
       type: DataTypes.INTEGER,
@@ -26,7 +26,8 @@ const Visa = sequelize.define(
   },
   {
     timestamps: true,
-  }
+    freezeTableName: true,
+  },
 );
 
 Country.hasMany(Visa, { foreignKey: "country_id" });
