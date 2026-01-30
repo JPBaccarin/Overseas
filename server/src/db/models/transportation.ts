@@ -24,7 +24,8 @@ const Transportation = sequelize.define(
     ride_sharing_options: DataTypes.TEXT,
   },
   {
-    timestamps: true,freezeTableName: true,
+    timestamps: false,
+    freezeTableName: true,
   },
 );
 

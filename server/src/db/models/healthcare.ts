@@ -24,7 +24,7 @@ const Healthcare = sequelize.define(
     emergency_numbers: DataTypes.STRING,
   },
   {
-    timestamps: true,
+    timestamps: false,
     freezeTableName: true,
   },
 );

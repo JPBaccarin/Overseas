@@ -25,7 +25,8 @@ const Housing = sequelize.define(
     buying_process: DataTypes.TEXT,
   },
   {
-    timestamps: true,freezeTableName: true,
+    timestamps: false,
+    freezeTableName: true,
   },
 );
 

@@ -23,7 +23,8 @@ const SocialConnections = sequelize.define(
     local_events: DataTypes.TEXT,
   },
   {
-    timestamps: true,freezeTableName: true,
+    timestamps: false,
+    freezeTableName: true,
   },
 );
 

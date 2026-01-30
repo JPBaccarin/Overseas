@@ -24,7 +24,8 @@ const Safety = sequelize.define(
     safe_areas: DataTypes.TEXT,
   },
   {
-    timestamps: true,freezeTableName: true,
+    timestamps: false,
+    freezeTableName: true,
   },
 );
 

@@ -1,6 +1,6 @@
 import { DataTypes } from "sequelize";
-import sequelize from '../config.ts';
-import Country from './country.ts';
+import sequelize from "../config.ts";
+import Country from "./country.ts";
 
 const CultureAndLanguage = sequelize.define(
   "culture_and_language",
@@ -24,8 +24,9 @@ const CultureAndLanguage = sequelize.define(
     public_holidays: DataTypes.TEXT,
   },
   {
-    timestamps: true,freezeTableName: true,
-  }
+    timestamps: false,
+    freezeTableName: true,
+  },
 );
 
 Country.hasMany(CultureAndLanguage, { foreignKey: "country_id" });

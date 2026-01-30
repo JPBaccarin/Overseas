@@ -94,7 +94,7 @@ const LandingPage = () => {
           <div className="flex flex-col md:flex-row md:justify-around">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="p-6 bg-gray-100 mx-2 shadow-md rounded-lg mb-8 md:mb-0 md:w-1/3">
-                <p className="text-lg italic mb-4">"{testimonial.feedback}"</p>
+                <p className="text-lg italic mb-4">&ldquo;{testimonial.feedback}&rdquo;</p>
                 <p className="font-semibold">{testimonial.name}</p>
                 <p>{testimonial.location}</p>
               </div>

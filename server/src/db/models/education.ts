@@ -25,7 +25,7 @@ const Education = sequelize.define(
     language_requirements: DataTypes.TEXT,
   },
   {
-    timestamps: true,
+    timestamps: false,
     freezeTableName: true,
   },
 );

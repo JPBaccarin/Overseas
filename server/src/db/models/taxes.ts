@@ -25,7 +25,7 @@ const Taxes = sequelize.define(
     tax_filing_process: DataTypes.TEXT,
   },
   {
-    timestamps: true,
+    timestamps: false,
     freezeTableName: true,
   },
 );

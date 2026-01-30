@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import { SelectCountry } from "./hero.input";
 
 const images = [
@@ -25,10 +26,13 @@ const Hero = () => {
         <SelectCountry />
       </div>
       <div className=" ml-2 relative rounded-md w-2/4 hidden sm:block">
-        <img
+        <Image
           src={images[currentImage]}
           alt="Country"
           className="absolute top-0 left-0 w-full h-full object-cover z-[-1] transition-opacity duration-1000 rounded-md"
+          fill
+          unoptimized
+          priority
         />
       </div>
     </div>

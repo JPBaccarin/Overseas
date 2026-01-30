@@ -1,6 +1,6 @@
 import { DataTypes } from "sequelize";
-import sequelize from '../config.ts';
-import Country from './country.ts';
+import sequelize from "../config.ts";
+import Country from "./country.ts";
 const Documentation = sequelize.define(
   "documentation",
   {
@@ -22,8 +22,9 @@ const Documentation = sequelize.define(
     document_issuance: DataTypes.TEXT,
   },
   {
-    timestamps: true,freezeTableName: true,
-  }
+    timestamps: false,
+    freezeTableName: true,
+  },
 );
 
 Country.hasMany(Documentation, { foreignKey: "country_id" });

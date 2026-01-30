@@ -25,7 +25,7 @@ const Visa = sequelize.define(
     validity: DataTypes.STRING,
   },
   {
-    timestamps: true,
+    timestamps: false,
     freezeTableName: true,
   },
 );

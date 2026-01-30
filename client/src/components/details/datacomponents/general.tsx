@@ -1,4 +1,5 @@
 // components/GeneralInfo.tsx
+import Image from "next/image";
 import { CountryHeaderData } from "../../types/CountryHeaderData";
 
 export default function GeneralInfo({ data }: { data: CountryHeaderData }) {
@@ -70,7 +71,14 @@ export default function GeneralInfo({ data }: { data: CountryHeaderData }) {
         </div>
       </div>
       <div className="mt-4">
-        <img src={data.coatOfArms.svg} alt={`${data.name.common} Coat of Arms`} className="w-56 h-auto " />
+        <Image
+          src={data.coatOfArms.svg}
+          alt={`${data.name.common} Coat of Arms`}
+          className="w-56 h-auto"
+          width={224}
+          height={224}
+          unoptimized
+        />
       </div>
     </div>
   );

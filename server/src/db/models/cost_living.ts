@@ -24,7 +24,9 @@ const CostOfLiving = sequelize.define(
     average_entertainment_cost: DataTypes.FLOAT,
   },
   {
-    timestamps: true, freezeTableName: true, },
+    timestamps: false,
+    freezeTableName: true,
+  },
 );
 
 Country.hasMany(CostOfLiving, { foreignKey: "country_id" });

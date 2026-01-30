@@ -25,7 +25,7 @@ const Country = sequelize.define(
     area: DataTypes.FLOAT,
   },
   {
-    timestamps: true,
+    timestamps: false,
     freezeTableName: true,
   },
 );

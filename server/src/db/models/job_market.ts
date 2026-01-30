@@ -24,7 +24,8 @@ const JobMarket = sequelize.define(
     work_permit_requirements: DataTypes.TEXT,
   },
   {
-    timestamps: true,freezeTableName: true,
+    timestamps: false,
+    freezeTableName: true,
   },
 );
 

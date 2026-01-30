@@ -1,0 +1,677 @@
+[
+  {
+    "id": "canada",
+    "name": "Canada",
+    "iso_code": "CAN",
+    "continent": "North America",
+    "capital": "Ottawa",
+    "official_language": "English, French",
+    "currency": "CAD",
+    "population": 38000000,
+    "area": 9984670,
+    "cost_of_livings": [
+      {
+        "id": 1,
+        "country_id": "canada",
+        "average_food_cost": 400,
+        "average_transportation_cost": 150,
+        "average_utilities_cost": 200,
+        "average_entertainment_cost": 250
+      }
+    ],
+    "culture_and_languages": [
+      {
+        "id": 1,
+        "country_id": "canada",
+        "official_languages": "English, French",
+        "common_languages": "English, French",
+        "cultural_norms": "Politeness, Multiculturalism",
+        "public_holidays": "Canada Day, Thanksgiving"
+      }
+    ],
+    "documentations": [
+      {
+        "id": 1,
+        "country_id": "canada",
+        "required_documents": "Passport, Visa, Work Permit",
+        "registration_process": "Online application through CIC",
+        "document_issuance": "Issued by IRCC"
+      }
+    ],
+    "education": [
+      {
+        "id": 1,
+        "country_id": "canada",
+        "system_type": "Public",
+        "average_cost": 15000,
+        "top_schools": "University of Toronto, UBC",
+        "university_admission_process": "Apply through universities",
+        "language_requirements": "English, French proficiency"
+      }
+    ],
+    "healthcares": [
+      {
+        "id": 1,
+        "country_id": "canada",
+        "system_type": "Public",
+        "insurance_requirements": "Provincial health insurance",
+        "average_cost": 0,
+        "hospitals_quality": "High",
+        "emergency_numbers": "911"
+      }
+    ],
+    "housings": [
+      {
+        "id": 1,
+        "country_id": "canada",
+        "average_rent": 1500,
+        "average_property_price": 500000,
+        "popular_areas": "Toronto, Vancouver",
+        "rental_process": "Apply through rental agencies",
+        "buying_process": "Real estate agents, Notary"
+      }
+    ],
+    "job_markets": [
+      {
+        "id": 1,
+        "country_id": "canada",
+        "major_industries": "Technology, Natural Resources",
+        "average_salary": 50000,
+        "unemployment_rate": 5,
+        "work_permit_requirements": "Work Permit required for foreigners"
+      }
+    ],
+    "safety": [
+      {
+        "id": 1,
+        "country_id": "canada",
+        "crime_rate": 1.5,
+        "safety_tips": "Stay alert in urban areas",
+        "emergency_contacts": "911",
+        "safe_areas": "Ottawa, Calgary"
+      }
+    ],
+    "social_connections": [
+      {
+        "id": 1,
+        "country_id": "canada",
+        "expat_communities": "Toronto Expat Group, Vancouver International",
+        "social_groups": "Meetup, InterNations",
+        "local_events": "Toronto International Film Festival"
+      }
+    ],
+    "taxes": [
+      {
+        "id": 1,
+        "country_id": "canada",
+        "income_tax_rate": 25,
+        "sales_tax_rate": 5,
+        "property_tax_rate": 1,
+        "double_taxation_treaties": "USA, UK",
+        "tax_filing_process": "Online filing through CRA"
+      }
+    ],
+    "transportation": [
+      {
+        "id": 1,
+        "country_id": "canada",
+        "public_transportation": "Bus, Subway, Train",
+        "average_cost": 100,
+        "driving_requirements": "Driver’s license, Insurance",
+        "ride_sharing_options": "Uber, Lyft"
+      }
+    ],
+    "visas": [
+      {
+        "id": 1,
+        "country_id": "canada",
+        "type": "Tourist Visa",
+        "requirements": "Passport, Financial Proof",
+        "application_process": "Online through CIC",
+        "processing_time": "2-4 weeks",
+        "cost": 100,
+        "validity": "6 months"
+      }
+    ]
+  },
+  {
+    "id": "mexico",
+    "name": "Mexico",
+    "iso_code": "MEX",
+    "continent": "North America",
+    "capital": "Mexico City",
+    "official_language": "Spanish",
+    "currency": "MXN",
+    "population": 128900000,
+    "area": 1964380,
+    "cost_of_livings": [
+      {
+        "id": 2,
+        "country_id": "mexico",
+        "average_food_cost": 300,
+        "average_transportation_cost": 100,
+        "average_utilities_cost": 150,
+        "average_entertainment_cost": 100
+      }
+    ],
+    "culture_and_languages": [
+      {
+        "id": 2,
+        "country_id": "mexico",
+        "official_languages": "Spanish",
+        "common_languages": "Spanish, Indigenous Languages",
+        "cultural_norms": "Family-oriented, Festivals",
+        "public_holidays": "Día de la Independencia, Día de los Muertos"
+      }
+    ],
+    "documentations": [
+      {
+        "id": 2,
+        "country_id": "mexico",
+        "required_documents": "Passport, Visa",
+        "registration_process": "Application at Mexican consulate",
+        "document_issuance": "Issued by SRE"
+      }
+    ],
+    "education": [
+      {
+        "id": 2,
+        "country_id": "mexico",
+        "system_type": "Public",
+        "average_cost": 5000,
+        "top_schools": "UNAM, ITESM",
+        "university_admission_process": "Apply through universities",
+        "language_requirements": "Spanish proficiency"
+      }
+    ],
+    "healthcares": [
+      {
+        "id": 2,
+        "country_id": "mexico",
+        "system_type": "Public and Private",
+        "insurance_requirements": "IMSS or private insurance",
+        "average_cost": 100,
+        "hospitals_quality": "Moderate",
+        "emergency_numbers": "911"
+      }
+    ],
+    "housings": [
+      {
+        "id": 2,
+        "country_id": "mexico",
+        "average_rent": 800,
+        "average_property_price": 200000,
+        "popular_areas": "Mexico City, Cancún",
+        "rental_process": "Lease agreements",
+        "buying_process": "Notary, Real estate agents"
+      }
+    ],
+    "job_markets": [
+      {
+        "id": 2,
+        "country_id": "mexico",
+        "major_industries": "Manufacturing, Tourism",
+        "average_salary": 10000,
+        "unemployment_rate": 3.5,
+        "work_permit_requirements": "Work Visa required for foreigners"
+      }
+    ],
+    "safety": [
+      {
+        "id": 2,
+        "country_id": "mexico",
+        "crime_rate": 3.5,
+        "safety_tips": "Avoid certain areas at night",
+        "emergency_contacts": "911",
+        "safe_areas": "Merida, San Miguel de Allende"
+      }
+    ],
+    "social_connections": [
+      {
+        "id": 2,
+        "country_id": "mexico",
+        "expat_communities": "Mexico City Expat Group, Cancún Expats",
+        "social_groups": "Facebook Groups, Meetup",
+        "local_events": "Dia de los Muertos Parade"
+      }
+    ],
+    "taxes": [
+      {
+        "id": 2,
+        "country_id": "mexico",
+        "income_tax_rate": 20,
+        "sales_tax_rate": 16,
+        "property_tax_rate": 0.5,
+        "double_taxation_treaties": "USA, Canada",
+        "tax_filing_process": "Online filing through SAT"
+      }
+    ],
+    "transportation": [
+      {
+        "id": 2,
+        "country_id": "mexico",
+        "public_transportation": "Bus, Metro",
+        "average_cost": 50,
+        "driving_requirements": "Driver’s license, Insurance",
+        "ride_sharing_options": "Uber, Didi"
+      }
+    ],
+    "visas": [
+      {
+        "id": 2,
+        "country_id": "mexico",
+        "type": "Tourist Visa",
+        "requirements": "Passport, Return Ticket",
+        "application_process": "Application at Mexican Consulate",
+        "processing_time": "1-2 weeks",
+        "cost": 36,
+        "validity": "6 months"
+      }
+    ]
+  },
+  {
+    "id": "gb",
+    "name": "United Kingdom",
+    "iso_code": "GBR",
+    "continent": "Europe",
+    "capital": "London",
+    "official_language": "English",
+    "currency": "GBP",
+    "population": 67000000,
+    "area": 242495,
+    "cost_of_livings": [
+      {
+        "id": 3,
+        "country_id": "gb",
+        "average_food_cost": 500,
+        "average_transportation_cost": 200,
+        "average_utilities_cost": 250,
+        "average_entertainment_cost": 300
+      }
+    ],
+    "culture_and_languages": [
+      {
+        "id": 3,
+        "country_id": "gb",
+        "official_languages": "English",
+        "common_languages": "English",
+        "cultural_norms": "Queuing, Tea Culture",
+        "public_holidays": "Christmas, Easter"
+      }
+    ],
+    "documentations": [
+      {
+        "id": 3,
+        "country_id": "gb",
+        "required_documents": "Passport, Visa",
+        "registration_process": "Online application through GOV.UK",
+        "document_issuance": "Issued by Home Office"
+      }
+    ],
+    "education": [
+      {
+        "id": 3,
+        "country_id": "gb",
+        "system_type": "Public",
+        "average_cost": 12000,
+        "top_schools": "University of Oxford, University of Cambridge",
+        "university_admission_process": "Apply through UCAS",
+        "language_requirements": "English proficiency"
+      }
+    ],
+    "healthcares": [
+      {
+        "id": 3,
+        "country_id": "gb",
+        "system_type": "Public",
+        "insurance_requirements": "NHS registration",
+        "average_cost": 0,
+        "hospitals_quality": "High",
+        "emergency_numbers": "999"
+      }
+    ],
+    "housings": [
+      {
+        "id": 3,
+        "country_id": "gb",
+        "average_rent": 1800,
+        "average_property_price": 400000,
+        "popular_areas": "London, Manchester",
+        "rental_process": "Apply through letting agents",
+        "buying_process": "Solicitor, Real estate agents"
+      }
+    ],
+    "job_markets": [
+      {
+        "id": 3,
+        "country_id": "gb",
+        "major_industries": "Finance, Healthcare",
+        "average_salary": 40000,
+        "unemployment_rate": 4,
+        "work_permit_requirements": "Work Visa required for foreigners"
+      }
+    ],
+    "safety": [
+      {
+        "id": 3,
+        "country_id": "gb",
+        "crime_rate": 2,
+        "safety_tips": "Be cautious with belongings",
+        "emergency_contacts": "999",
+        "safe_areas": "Cambridge, Bath"
+      }
+    ],
+    "social_connections": [
+      {
+        "id": 3,
+        "country_id": "gb",
+        "expat_communities": "London Expat Group, Manchester Expats",
+        "social_groups": "Meetup, InterNations",
+        "local_events": "Notting Hill Carnival"
+      }
+    ],
+    "taxes": [
+      {
+        "id": 3,
+        "country_id": "gb",
+        "income_tax_rate": 20,
+        "sales_tax_rate": 20,
+        "property_tax_rate": 0.7,
+        "double_taxation_treaties": "USA, Canada",
+        "tax_filing_process": "Online filing through HMRC"
+      }
+    ],
+    "transportation": [
+      {
+        "id": 3,
+        "country_id": "gb",
+        "public_transportation": "Bus, Underground, Train",
+        "average_cost": 150,
+        "driving_requirements": "Driver’s license, Insurance",
+        "ride_sharing_options": "Uber, Bolt"
+      }
+    ],
+    "visas": [
+      {
+        "id": 3,
+        "country_id": "gb",
+        "type": "Tourist Visa",
+        "requirements": "Passport, Financial Proof",
+        "application_process": "Online through GOV.UK",
+        "processing_time": "2-3 weeks",
+        "cost": 95,
+        "validity": "6 months"
+      }
+    ]
+  },
+  {
+    "id": "brazil",
+    "name": "Brazil",
+    "iso_code": "BRA",
+    "continent": "South America",
+    "capital": "Brasília",
+    "official_language": "Portuguese",
+    "currency": "BRL",
+    "population": 213000000,
+    "area": 8515770,
+    "cost_of_livings": [
+      {
+        "id": 4,
+        "country_id": "brazil",
+        "average_food_cost": 250.5,
+        "average_transportation_cost": 100.75,
+        "average_utilities_cost": 150.6,
+        "average_entertainment_cost": 80.25
+      }
+    ],
+    "culture_and_languages": [
+      {
+        "id": 4,
+        "country_id": "brazil",
+        "official_languages": "Portuguese",
+        "common_languages": "Portuguese, English",
+        "cultural_norms": "Family-oriented, Warm greetings",
+        "public_holidays": "New Year, Carnival, Independence Day"
+      }
+    ],
+    "documentations": [
+      {
+        "id": 4,
+        "country_id": "brazil",
+        "required_documents": "Passport, Visa, CPF",
+        "registration_process": "Submit online, Schedule appointment",
+        "document_issuance": "Issued within 10 days"
+      }
+    ],
+    "education": [
+      {
+        "id": 4,
+        "country_id": "brazil",
+        "system_type": "Public and Private",
+        "average_cost": 2000.5,
+        "top_schools": "USP, Unicamp, UFRJ",
+        "university_admission_process": "ENEM exam, University-specific tests",
+        "language_requirements": "Portuguese"
+      }
+    ],
+    "healthcares": [
+      {
+        "id": 4,
+        "country_id": "brazil",
+        "system_type": "Public (SUS) and Private",
+        "insurance_requirements": "Required for private care",
+        "average_cost": 120.5,
+        "hospitals_quality": "High quality in urban areas",
+        "emergency_numbers": "192"
+      }
+    ],
+    "housings": [
+      {
+        "id": 4,
+        "country_id": "brazil",
+        "average_rent": 500,
+        "average_property_price": 3000,
+        "popular_areas": "São Paulo, Rio de Janeiro",
+        "rental_process": "Background check, Deposit required",
+        "buying_process": "Notary process, Financing available"
+      }
+    ],
+    "job_markets": [
+      {
+        "id": 4,
+        "country_id": "brazil",
+        "major_industries": "Agriculture, Manufacturing, Services",
+        "average_salary": 1000.75,
+        "unemployment_rate": 12.5,
+        "work_permit_requirements": "Work visa, Contract with employer"
+      }
+    ],
+    "safety": [
+      {
+        "id": 4,
+        "country_id": "brazil",
+        "crime_rate": 45.5,
+        "safety_tips": "Avoid isolated areas at night, Stay alert in crowded places",
+        "emergency_contacts": "192, 193",
+        "safe_areas": "Brasília, Curitiba"
+      }
+    ],
+    "social_connections": [
+      {
+        "id": 4,
+        "country_id": "brazil",
+        "expat_communities": "Expats in São Paulo, Rio Expats",
+        "social_groups": "Sports clubs, Language exchange groups",
+        "local_events": "Carnival, São João Festival"
+      }
+    ],
+    "taxes": [
+      {
+        "id": 4,
+        "country_id": "brazil",
+        "income_tax_rate": 27.5,
+        "sales_tax_rate": 17,
+        "property_tax_rate": 1.5,
+        "double_taxation_treaties": "Brazil-USA Tax Treaty",
+        "tax_filing_process": "Online filing, Local accountant assistance"
+      }
+    ],
+    "transportation": [
+      {
+        "id": 4,
+        "country_id": "brazil",
+        "public_transportation": "Buses, Metro, Trains",
+        "average_cost": 1.5,
+        "driving_requirements": "Valid driver’s license, Insurance required",
+        "ride_sharing_options": "Uber, 99"
+      }
+    ],
+    "visas": [
+      {
+        "id": 4,
+        "country_id": "brazil",
+        "type": "Tourist Visa",
+        "requirements": "Passport, Return ticket, Financial proof",
+        "application_process": "Online application, Interview",
+        "processing_time": "10 business days",
+        "cost": 40,
+        "validity": "90 days"
+      }
+    ]
+  },
+  {
+    "id": "usa",
+    "name": "United States",
+    "iso_code": "USA",
+    "continent": "North America",
+    "capital": "Washington, D.C.",
+    "official_language": "English",
+    "currency": "USD",
+    "population": 331000000,
+    "area": 9833520,
+    "cost_of_livings": [
+      {
+        "id": 5,
+        "country_id": "usa",
+        "average_food_cost": 300.8,
+        "average_transportation_cost": 120.3,
+        "average_utilities_cost": 200.45,
+        "average_entertainment_cost": 100.9
+      }
+    ],
+    "culture_and_languages": [
+      {
+        "id": 5,
+        "country_id": "usa",
+        "official_languages": "English",
+        "common_languages": "English, Spanish",
+        "cultural_norms": "Individualism, Time-conscious",
+        "public_holidays": "Independence Day, Thanksgiving, Christmas"
+      }
+    ],
+    "documentations": [
+      {
+        "id": 5,
+        "country_id": "usa",
+        "required_documents": "Passport, Visa, Social Security Number",
+        "registration_process": "Submit online, Visit local office",
+        "document_issuance": "Issued within 14 days"
+      }
+    ],
+    "education": [
+      {
+        "id": 5,
+        "country_id": "usa",
+        "system_type": "Public and Private",
+        "average_cost": 35000.8,
+        "top_schools": "Harvard, MIT, Stanford",
+        "university_admission_process": "SAT/ACT, College-specific requirements",
+        "language_requirements": "English"
+      }
+    ],
+    "healthcares": [
+      {
+        "id": 5,
+        "country_id": "usa",
+        "system_type": "Private",
+        "insurance_requirements": "Mandatory for most",
+        "average_cost": 400.75,
+        "hospitals_quality": "Varies widely by state",
+        "emergency_numbers": "911"
+      }
+    ],
+    "housings": [
+      {
+        "id": 5,
+        "country_id": "usa",
+        "average_rent": 1200.5,
+        "average_property_price": 5000,
+        "popular_areas": "New York, Los Angeles",
+        "rental_process": "Credit check, First month rent upfront",
+        "buying_process": "Mortgage process, Legal documentation"
+      }
+    ],
+    "job_markets": [
+      {
+        "id": 5,
+        "country_id": "usa",
+        "major_industries": "Technology, Finance, Healthcare",
+        "average_salary": 4500.6,
+        "unemployment_rate": 4.5,
+        "work_permit_requirements": "Work visa, Employer sponsorship"
+      }
+    ],
+    "safety": [
+      {
+        "id": 5,
+        "country_id": "usa",
+        "crime_rate": 25,
+        "safety_tips": "Be cautious in unfamiliar areas, Keep personal belongings secure",
+        "emergency_contacts": "911",
+        "safe_areas": "Boston, Seattle"
+      }
+    ],
+    "social_connections": [
+      {
+        "id": 5,
+        "country_id": "usa",
+        "expat_communities": "Expats in NYC, Bay Area Expats",
+        "social_groups": "Meetup groups, Professional networks",
+        "local_events": "4th of July, Thanksgiving Parades"
+      }
+    ],
+    "taxes": [
+      {
+        "id": 5,
+        "country_id": "usa",
+        "income_tax_rate": 37,
+        "sales_tax_rate": 8,
+        "property_tax_rate": 1.1,
+        "double_taxation_treaties": "USA-Brazil Tax Treaty",
+        "tax_filing_process": "E-filing, CPA services"
+      }
+    ],
+    "transportation": [
+      {
+        "id": 5,
+        "country_id": "usa",
+        "public_transportation": "Subways, Buses, Regional trains",
+        "average_cost": 2.75,
+        "driving_requirements": "Driver’s license, Vehicle registration",
+        "ride_sharing_options": "Uber, Lyft"
+      }
+    ],
+    "visas": [
+      {
+        "id": 5,
+        "country_id": "usa",
+        "type": "B1/B2 Visa",
+        "requirements": "Passport, DS-160 form, Financial proof",
+        "application_process": "Online application, Embassy interview",
+        "processing_time": "15 business days",
+        "cost": 160,
+        "validity": "10 years"
+      }
+    ]
+  }
+]
