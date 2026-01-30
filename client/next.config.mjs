@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  basePath: "/Overseas", // Nome do seu repositório no GitHub
   images: {
     unoptimized: true,
     remotePatterns: [
